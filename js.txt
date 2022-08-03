@@ -1398,6 +1398,12 @@ console.log("Function says hello!");
 
 let timerId=setInterval(executeMe, 2000);
 
+
+var intervalID = setInterval(alert, 1000); // Will alert every second.
+// clearInterval(intervalID); // Will clear the timer.
+
+setTimeout(alert, 1000); // Will alert once, after a second.
+
 function stopInterval(){
 
           clearInterval(timerId);
